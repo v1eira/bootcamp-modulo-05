@@ -7,7 +7,7 @@ export const Loading = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
 `;
 
 export const Owner = styled.header`
@@ -43,7 +43,7 @@ export const Owner = styled.header`
 `;
 
 export const IssueList = styled.ul`
-  padding-top: 15px;
+  padding-top: 30px;
   margin-top: 30px;
   border-top: 1px solid #eee;
   list-style: none;
